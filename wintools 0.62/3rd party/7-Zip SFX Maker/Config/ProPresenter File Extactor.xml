@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Settings>
+  <General>
+    <ExtractMode>Temp</ExtractMode>
+    <HideProgress>False</HideProgress>
+    <ProgressDisableCancel>False</ProgressDisableCancel>
+    <SelfDelete>False</SelfDelete>
+    <CompressStub>True</CompressStub>
+    <XPStyles>True</XPStyles>
+    <HideTitleIcon>False</HideTitleIcon>
+    <PromptShowSFXIcon>True</PromptShowSFXIcon>
+    <Overwrite>All</Overwrite>
+    <MessageBegin Show="False">Start extraction</MessageBegin>
+    <MessageCancel Show="True">Are you sure you want to cancel?</MessageCancel>
+    <MessageFinish Show="True">Files were successfully extracted</MessageFinish>
+    <TitleText>ProPresentor File Extractor</TitleText>
+    <ExtractPathText>Select extraction path</ExtractPathText>
+    <ExtractCancelText>Abort</ExtractCancelText>
+    <ExtractDialogText>Please Wait...</ExtractDialogText>
+    <ExtractTitleText>Extracting</ExtractTitleText>
+    <ExtractShowIcon>True</ExtractShowIcon>
+    <ProgressPercent>0</ProgressPercent>
+    <ProgressShowIcon>True</ProgressShowIcon>
+    <Icon>C:\Program Files (x86)\7-Zip SFX Maker\Resources\04.ico</Icon>
+  </General>
+  <Tasks />
+  <VersionString>
+    <Item Name="Comments" Value="" Enabled="True" />
+    <Item Name="CompanyName" Value="Oleg N. Scherbakov" Enabled="False" />
+    <Item Name="FileDescription" Value="ProPresenter Setup SFX" Enabled="True" />
+    <Item Name="FileVersion" Value="1, 2, 0, 715" Enabled="False" />
+    <Item Name="InternalName" Value="ProPresenter File Extractor" Enabled="True" />
+    <Item Name="LegalCopyright" Value="Copyright © 2005-2007 Oleg N. Scherbakov" Enabled="True" />
+    <Item Name="LegalTrademarks" Value="" Enabled="False" />
+    <Item Name="OriginalFilename" Value="7zSfxNew.exe" Enabled="False" />
+    <Item Name="PrivateBuild" Value="January 12, 2018" Enabled="True" />
+    <Item Name="ProductName" Value="ProPresenter File Extractor" Enabled="True" />
+    <Item Name="ProductVersion" Value="1,0, 1" Enabled="True" />
+    <Item Name="SpecialBuild" Value="False" Enabled="True" />
+  </VersionString>
+</Settings>
