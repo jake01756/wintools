@@ -1,0 +1,76 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Installation Options
+  Flags=11001101
+  item: Dialog
+    Title=Installation Options
+    Width=336
+    Height=208
+    Font Name=Helv
+    Font Size=8
+    item: Static
+      Rectangle=3 7 325 39
+      Action=2
+      Create Flags=01010000000000000000000000001011
+      Pathname=C:\WISE\SAMPLE\WISETITL.BMP
+    end
+    item: Static
+      Rectangle=1 0 327 42
+      Action=1
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Push Button
+      Rectangle=265 50 326 65
+      Create Flags=01010000000000010000000000000001
+      Text=Install Files
+    end
+    item: Push Button
+      Rectangle=265 70 326 85
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Abort Installation
+    end
+    item: Listbox
+      Rectangle=5 56 114 185
+      Create Flags=01010000100000010000000101000000
+      Flags=0000110000000010
+    end
+    item: Static
+      Rectangle=4 45 100 55
+      Create Flags=01010000000000000000000000000000
+      Text=Destination Directory:
+    end
+    item: Static
+      Rectangle=121 45 217 55
+      Create Flags=01010000000000000000000000000000
+      Text=Destination Group:
+    end
+    item: Combobox
+      Rectangle=120 55 230 188
+      Create Flags=01010000001000010000001100000001
+      Flags=0000000000000001
+      Text=GLBS Applications
+    end
+    item: Checkbox
+      Rectangle=240 100 324 127
+      Create Flags=01010000000000010000000000000011
+      Text=Backup Replaced File
+      Text=View Read Me File
+      Text=
+    end
+    item: Static
+      Rectangle=235 89 328 186
+      Action=1
+      Create Flags=01010000000000000000000000000111
+      Text=Options
+    end
+    item: Radio Button
+      Rectangle=241 136 324 181
+      Create Flags=01010000000000010000000000001001
+      Text=Full Installation
+      Text=Laptop Installation
+      Text=Custom Installation
+      Text=
+    end
+  end
+end

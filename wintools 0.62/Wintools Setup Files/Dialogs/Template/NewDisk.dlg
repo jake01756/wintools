@@ -1,0 +1,101 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Select Source
+  Flags=00000001
+  item: Dialog
+    Title=Insert New Disk
+    Title French=Insérez la nouvelle disquette
+    Title German=Neue Diskette einlegen
+    Title Portuguese=Insira disquete nova
+    Title Spanish=Introduzca el Disco Nuevo
+    Title Italian=Inserisci il nuovo disco
+    Title Danish=Indsæt ny diskette
+    Title Dutch=Breng nieuwe diskette in.
+    Title Norwegian=Sett inn den nye disketten
+    Title Swedish=Sätt i ny diskett
+    Width=178
+    Height=96
+    Font Name=Helv
+    Font Size=8
+    Flags=0000000100000000
+    item: Static
+      Rectangle=3 0 126 75
+      Action=1
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Static
+      Rectangle=9 8 124 42
+      Create Flags=01010000000000000000000000000000
+      Text=Place installation disk #%DISK_NUMBER% into the floppy drive and press the OK button.
+      Text French=Insérez la disquette d'installation #%DISK_NUMBER% dans le lecteur de disquette et cliquez sur OK
+      Text German=Installationsdiskette #%DISK_NUMBER% in das Diskettenlaufwerk einlegen und die Schaltfläche OK drücken.
+      Text Portuguese=Coloque disquete de instalação #%DISK_NUMBER% na unidade de disquete e pressione o botão OK
+      Text Spanish=Introduzca el disco de instalación #%DISK_NUMBER% en la unidad de disco flexible y pulse el botón de ACEPTAR
+      Text Italian=Inserisci il disco di installazione #%DISK_NUMBER% nell’unità floppy e dai conferma premendo OK
+      Text Danish=Anbring installeringsdisketten #%DISK NUMBER% i diskettedrevet og tryk på OK-tasten.
+      Text Dutch=Zet de installatiediskette #%DISK_NUMBER% in het diskettestation en druk op de knop OK.
+      Text Norwegian=Sett installasjonsdisketten #%DISK_NUMBER % i diskettstasjonen og trykk på OK-tasten.
+      Text Swedish=Sätt i installationsdisketten #%DISK_NUMBER% i diskettstationen och tryck på OK.
+    end
+    item: Static
+      Rectangle=9 47 67 56
+      Create Flags=01010000000000000000000000000000
+      Text=Source Pathname:
+      Text French=Nom de chemin Source :
+      Text German=Ausgangspfad:
+      Text Portuguese=Nome do caminho da fonte
+      Text Spanish=Fuente del Nombre de Acceso:
+      Text Italian=Nome percorso di origine:
+      Text Danish=Kildens stinavn:
+      Text Dutch=Padnaam bron:
+      Text Norwegian=Kildebane-navn:
+      Text Swedish=Sökväg till källfilerna
+    end
+    item: Editbox
+      Rectangle=9 58 116 69
+      Variable=INST
+      Help Context=16711681
+      Create Flags=01010000100000010000000010000000
+      Flags=0000010000000000
+      Text=%INST%
+      Text French=%INST%
+      Text German=%INST%
+      Text Portuguese=%INST%
+      Text Spanish=%INST%
+      Text Italian=%INST%
+      Text Danish=%INST%
+      Text Dutch=%INST%
+      Text Norwegian=%INST%
+      Text Swedish=%INST%
+    end
+    item: Push Button
+      Rectangle=130 4 170 19
+      Create Flags=01010000000000010000000000000001
+      Text=OK
+      Text French=OK
+      Text German=OK
+      Text Portuguese=OK
+      Text Spanish=ACEPTAR
+      Text Italian=OK
+      Text Danish=OK
+      Text Dutch=OK
+      Text Norwegian=OK
+      Text Swedish=OK
+    end
+    item: Push Button
+      Rectangle=130 23 170 38
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+      Text French=Annuler
+      Text German=Abbrechen 
+      Text Portuguese=Cancelar
+      Text Spanish=Cancelar
+      Text Italian=Annulla
+      Text Danish=Slet
+      Text Dutch=Annuleren
+      Text Norwegian=Avbryt
+      Text Swedish=Avbryt
+    end
+  end
+end

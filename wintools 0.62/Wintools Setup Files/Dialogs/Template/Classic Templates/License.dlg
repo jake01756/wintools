@@ -1,0 +1,106 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=License Agreement
+  item: Dialog
+    Title=%APPTITLE%
+    Title French=Contrat de licence
+    Title German=Lizenzvertrag
+    Title Portuguese=Acordo de Licença
+    Title Spanish=Acuerdo de Licencia
+    Title Italian=Contratto di Licenza
+    Title Danish=Licensaftale
+    Title Dutch=Vergunningscontract
+    Title Norwegian=Lisensavtale:
+    Title Swedish=Licensavtal
+    Width=290
+    Height=238
+    Font Name=Helv
+    Font Size=8
+    item: Push Button
+      Rectangle=222 200 264 214
+      Variable=ACCEPT
+      Value=N
+      Action=3
+      Create Flags=01010000000000010000000000000001
+      Text=&No
+      Text French=&Non
+      Text German=&Nein
+      Text Portuguese=&Não
+      Text Spanish=&No
+      Text Italian=&No
+      Text Danish=&Nej
+      Text Dutch=&Nee
+      Text Norwegian=&Nei
+      Text Swedish=&Nej [If "No" stands for a negative answer. If it stands for "number", it is "nr."]
+    end
+    item: Push Button
+      Rectangle=173 200 215 214
+      Variable=ACCEPT
+      Value=B
+      Create Flags=01010000000000010000000000000000
+      Text=&Yes
+      Text French=&Oui
+      Text German=&Ja
+      Text Portuguese=&Sim
+      Text Spanish=&Sí
+      Text Italian=&Sì
+      Text Danish=&Ja
+      Text Dutch=&Ja
+      Text Norwegian=&Ja
+      Text Swedish=&Ja
+    end
+    item: Editbox
+      Rectangle=13 50 266 154
+      Value=%TEMP%\%READMEFILE%
+      Help Context=16711681
+      Create Flags=01010000101000000000100000000100
+    end
+    item: Static
+      Rectangle=10 5 235 14
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Flags=0000000000000001
+      Name=Arial
+      Font Style=-11 0 0 0 700 0 0 0 0 3 2 1 34
+      Text=License Agreement
+      Text French=Veuillez lire le contrat de licence suivant. Utilisez la barre de défilement pour prendre connaissance du reste du contrat
+      Text German=Bitte lesen Sie sich den folgenden Lizenzvertrag durch. Benutzen Sie die Bildlaufleiste, um den Rest des Vertrages zu lesen.
+      Text Portuguese=É favor ler o acordo de licença seguinte. Utilize a barra de deslocamento para ver o resto deste acordo.
+      Text Spanish=Se ruega leer el siguiente acuerdo de licencia. Utilice la barra de desplazamiento para visualizar el resto de este acuerdo.
+      Text Italian=Leggi il seguente contratto di licenza. Utilizza la barra di scorrimento per visualizzare il resto di questo accordo. 
+      Text Danish=Læs følgende licensaftale. Brug rullepanelet til at læse resten af aftalen.
+      Text Dutch=Lees het volgende vergunningscontract a.u.b. door. Gebruik de schuifbalk om de rest van het contract te lezen.
+      Text Norwegian=Vær vennlig å lese igjennom den følgende lisensavtalen. Bruk rullefeltet for å se resten av denne denne avtalen.
+      Text Swedish=Läs genom följande licensavtal. Använd rullringslisten så att du kan läsa hela avtalet.
+    end
+    item: Static
+      Rectangle=12 160 266 187
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Text=Do you accept all the terms of the preceding license agreement?  If so, click on the Yes push button.  If you select No, Setup will close.
+      Text French=Acceptez-vous tous les termes de ce contrat de licence ? Si oui, cliquez sur Oui. Si vous cliquez sur Non, l'Installation va se terminer
+      Text German=Akzeptieren Sie alle Bedingungen des zuvor eingeblendeten Lizenzvertrages? Dann klicken Sie auf die Schaltfläche Ja. Wenn Sie Nein wählen, wird die Installation abgebrochen.
+      Text Portuguese=Aceita todos os termos do acordo de licença anterior? Se sim, faça um clique sobre o botão Sim. Se seleccionar Não, a Configuração fechará.
+      Text Spanish=¿Acepta todos los términos del acuerdo de licencia anterior? Si afirmativo, haga un clic en el botón de Sí. Si selecciona NO, se finalizará la Configuración.
+      Text Italian=Accetti tutte le condizioni di questo contratto di licenza? Dai conferma cliccando su Sì. Se indichi il contrario cliccando su No, il programma di installazione si chiude.
+      Text Danish=Kan De acceptere alle betingelserne i denne licensaftale? I bekræftende fald trykkes på Ja trykknappen. Vælger De Nej, lukker Setup.
+      Text Dutch=Aanvaardt u alle voorwaarden van bovenstaand vergunningscontract? Zo ja, klik dan op Ja. Als u Nee kiest, sluit het installatieprogramma.
+      Text Norwegian=Godtar du alle vilkårene i den foregående avtalen? Hvis ja, trykk på Ja-tasten. Hvis du velger Nei vil Oppsett avsluttes.
+      Text Swedish=Accepterar du samtliga villkor i licensavtalet ovan? Klicka i så fall på Ja. Om du väljer Nej, avslutas installationsprogrammet.
+    end
+    item: Static
+      Rectangle=71 191 286 192
+      Action=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000100
+    end
+    item: Static
+      Rectangle=0 187 71 195
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Text=Wise Installation Wizard®
+    end
+  end
+end

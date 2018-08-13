@@ -1,0 +1,49 @@
+WISE END-USER LICENSE AGREEMENT 
+FOR WISE FOR WINDOWS INSTALLER
+
+This End-User License Agreement ("EULA") pertains to the Wise for Windows Installer product (called the "Software" in this Agreement) in the package containing CD-ROMs, diskettes, associated media, printed materials or electronic documentation.  Read the terms and conditions of this End-User License Agreement ("EULA") before installing, copying, or otherwise using Wise for Windows Installer. 
+
+This End-User License Agreement ("EULA") is a legal agreement between you, ("Customer" or "you"), and Wise Solutions, Inc., a Michigan corporation ("Wise").  By clicking "I agree," installing, copying, or otherwise using any part of the above Software or any associated media, any printed materials, or any "online" or electronic documentation (the "Software"), you agree to be bound by the terms of this EULA.  If you do not agree to the terms of this EULA, promptly return the unused Software to your supplier for a full refund.
+
+1.	GRANT OF NON-EXCLUSIVE, LIMITED LICENSE
+The Software is licensed, not sold.  Any rights not clearly and expressly granted to you under this EULA are reserved to Wise.  Provided you have paid all applicable fees, registered the Software with Wise and otherwise complied with this EULA, then Wise grants you the following personal, non-exclusive, non-transferable, limited rights:
+
+a. 	You may use the Software on any individual single computer; use the Software on a network, provided that each individual accessing the Software through the network must have a copy licensed to that individual; use the Software on a second computer so long as only one copy is used at a time; or copy the Software for archival purposes, provided any copy must contain all of the original Software's proprietary notices.
+
+b.	You may redistribute royalty-free any installation programs that you create for your products using Wise for Windows Installer. 
+
+c.	You may not decompile, disassemble, extract or otherwise reverse engineer any of the Software.  You shall not have the right to obtain or use any source code for the Software, nor copy, reproduce, or distribute the Software except as provided above.  You agree not to rent, lease, or loan the Software, nor use the Software to render time sharing of service bureau services.  You may not use the Software in a software production "foundry" environment to make third party software ready for manufacture or installation.  You may not make any commercial use of the Software code except as expressly permitted under this Agreement.
+
+2.	COPYRIGHT, TRADEMARK, AND "MORAL RIGHT"
+The Software and documentation is copyrighted by Wise.  Wise's copyrights include, but are not necessarily limited to ©1994, 1995, 1996, 1997, 1998, 1999, 2000 Wise Solutions, Inc.  All Rights Reserved.  Making unauthorized copies is prohibited by law.  No part of the software or documentation may be reproduced, transmitted, transcribed, stored in a retrieval system or translated into any human or computer language without prior written permission of Wise.  Wise asserts its "Moral Right" to be identified as the author of this work, in all jurisdictions that recognize the "Moral Right."
+
+
+3.	TRADEMARKS AND SERVICE MARKS
+Wise owns a number of registered and unregistered Trademarks and Service marks (the "Marks").   These Marks are extremely valuable to Wise and shall not be used by you, or any other person, without Wise's express written permission.  The Marks include, but are not necessarily limited to the following: WISE INSTALLATION SYSTEM®, SMARTPATCH®, WISESOLUTIONS®, WISE SOLUTIONS®, SETUPCAPTURETM, WISE MSI EDITORTM, SOFTWARE DISTRIBUTION MADE EASYTM, INSTALLMANAGERTM, INSTALLMASTERTM, INSTALLBUILDERTM, INSTALLMAKERTM, INSTALLTAILORTM, APPLICATIONWATCHTM, CONFLICTMANAGERTM, UPDATEBUILDERTM, MSI DEBUGGERTM, WISE DEBUGGERTM, and SOFTWARE INSTALLATIONS MADE EASYTM.  Wise expressly reserves the right to use additional registered and unregistered Marks in connection with its business, and such additional registered and unregistered Marks shall be entitled to full protection under applicable law.  Any use of any Wise's Mark shall be deemed an intentional and willful violation of substantial rights of Wise.
+
+In addition to Wise's Marks, some Wise Products may include trademarks or service marks owned by other corporations.  These other marks include, but are not necessarily limited to: WINDOWS®, WINDOWS® 95, WINDOWS® 98, WINDOWS® ME, WINDOWS® NT, and WINDOWS® 2000, which are registered Trademarks of Microsoft Corporation.
+
+You shall not use any of the Trademarks, or Service marks of Wise, Microsoft Corporation, or any other entity, without the express written permission of such Trademark or Service mark owner.
+
+4.	WARRANTY, REMEDY, AND LIMITATIONS
+A.	WISE GRANTS YOU A LIMITED WARRANTY THAT THE SOFTWARE WILL PERFORM IN SUBSTANTIAL ACCORDANCE WITH THE ACCOMPANYING USER MANUAL FOR NINETY (90) DAYS FOLLOWING YOUR RECEIPT OF THE SOFTWARE.  THIS IS YOUR ONLY WARRANTY.
+
+B.	WISE'S ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY FOR ANY CLAIM YOU MAY HAVE AGAINST WISE SHALL BE, AT WISE'S OPTION, (I) RETURN OF AMOUNTS PAID FOR THE APPLICABLE SOFTWARE; OR (II) REPAIR OR REPLACEMENT OF SOFTWARE WHICH DOES NOT MEET THE ABOVE LIMITED WARRANTY; PROVIDED YOU RETURN THE SOFTWARE TO WISE.
+
+C.	SOME STATES DO NOT ALLOW CERTAIN WARRANTY LIMITATIONS, SO THE RESTRICTIONS OF THIS SECTION 2 WILL APPLY TO THE FULL EXTENT PERMITTED BY APPLICABLE LAW.
+
+UNLESS OTHERWISE STATED ABOVE, THE SOFTWARE AND THE DOCUMENTATION SOLD WITH THIS PUBLICATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS PARTICULAR PURPOSE.  THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THIS SOFTWARE REMAINS WITH YOU.  IN NO EVENT WILL WISE OR ANY OF ITS SUPPLIERS BE LIABLE FOR ANY LOST PROFITS, LOST SAVINGS, DIRECT, INCIDENTAL OR INDIRECT DAMAGES, OR OTHER ECONOMIC OR CONSEQUENTIAL DAMAGES, EVEN IF THEY HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  WISE RESERVES THE RIGHT TO MODIFY THIS DOCUMENT AT ANY TIME WITHOUT OBLIGATION TO NOTIFY ANYONE.   IN NO EVENT SHALL WISE'S OR ITS SUPPLIERS' LIABILITY UNDER THIS AGREEMENT EXCEED THE SUM OF ANY AMOUNTS PAID HEREUNDER BY YOU TO WISE OR THE SUPPLIER.
+
+5.	TERMINATION
+The license will terminate automatically if you fail to comply with the terms, conditions, or limitations contained in this EULA, including the payment of applicable license or other fees.  On termination, you shall, at Wise's option, either return to Wise or destroy all copies of the Software and documentation.  Otherwise, this EULA shall remain in force until terminated.  You may terminate this EULA at any time (with no obligation on the part of Wise) by destroying all copies of the Software, deleting any copies of the Software from your hard drives, ceasing all use of the Software and documentation; and providing satisfactory proof to Wise that you have done so.  The disclaimer of warranty and limitations on liability contained in Section 4 shall continue in force even after your rights to use the Software are terminated.
+
+6.	UPGRADES
+If the Software is designated by Wise as an "Upgrade" product, then you may only use the Software if you are also currently a licensed user of the base product to which the Upgrade applies.  Unless the Wise documentation for an Upgrade specifically provides, you shall not separate upgrade products from base products, nor transfer them separately.  Wise reserves the sole and exclusive right to set its policies and prices regarding updates, upgrades and enhancements.  All other terms of this EULA apply with equal force to any such Upgrades.
+
+7.	DEMO OR EVALUATION VERSIONS
+If Wise designates the Software as a "Demo" or "Evaluation" version, then your license rights under this EULA shall extend solely for a 30-day evaluation period, during which your use is restricted solely to allow you to determine whether to purchase an ongoing license to the Software.  You may make a reasonable number of copies of the Demo or Evaluation version of this Software, including documentation, for internal distribution, provided that any such copies are unmodified and exact.  You shall not charge or request donations for any such copies and distribute Demo or Evaluation versions of the Software to third parties without prior written permission.  Unregistered use of the Software, including documentation, beyond the 30-day evaluation period violates Wise's rights, as described above, including but not limited to Wise's rights under the United States Copyright Act.  You acknowledge that any Demo or Evaluation version is merely a technology demonstration that may not be at the level of performance or compatibility of generally available Wise products.  Demo or Evaluation versions are provided strictly on an "as is" basis and are subject to Section 4, above. 
+
+8.	GENERAL/MISCELLANEOUS CLAUSES
+This EULA shall be governed by and construed under the substantive laws applicable to the State of Michigan, United States of America.   If any provision of this EULA is held to be unenforceable, the remaining provisions shall remain in full force and effect.
+
+The undersigned agree that this EULA is entered into at Canton, Michigan.  They further agree that any legal or equitable dispute brought or arising under this Agreement shall be brought in the State and Federal courts for Canton, Michigan.  This Agreement constitutes the entire Agreement between the undersigned about the subject matter, and shall not be modified except as provided above, or in writing signed by both of the undersigned.

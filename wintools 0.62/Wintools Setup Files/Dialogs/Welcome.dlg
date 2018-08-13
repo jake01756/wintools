@@ -1,0 +1,166 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Welcome
+  Display Variable=DISPLAY
+  item: Dialog
+    Title=%APPTITLE%
+    Title French=%APPTITLE%
+    Title German=%APPTITLE%
+    Title Portuguese=%APPTITLE% 
+    Title Spanish=%APPTITLE%
+    Title Italian=%APPTITLE%
+    Title Danish=%APPTITLE%
+    Title Dutch=%APPTITLE%
+    Title Norwegian=%APPTITLE%
+    Title Swedish=%APPTITLE%
+    Width=290
+    Height=238
+    Font Name=Helv
+    Font Size=8
+    Flags=0000000100000000
+    item: Push Button
+      Rectangle=186 200 228 214
+      Variable=DIRECTION
+      Value=N
+      Create Flags=01010000000000010000000000000001
+      Text=&Next >
+      Text French=&Suivant>
+      Text German=&Weiter>
+      Text Portuguese=&Próximo>
+      Text Spanish=&Siguiente >
+      Text Italian=&Avanti >
+      Text Danish=&Næste>
+      Text Dutch=&Volgende>
+      Text Norwegian=&Neste>
+      Text Swedish=&Nästa >
+    end
+    item: Push Button
+      Rectangle=237 200 279 214
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+      Text French=Annuler
+      Text German=Abbrechen
+      Text Portuguese=Cancelar
+      Text Spanish=Cancelar
+      Text Italian=Annulla
+      Text Danish=Annuller
+      Text Dutch=Annuleren
+      Text Norwegian=Avbryt
+      Text Swedish=Avbryt
+    end
+    item: Static
+      Rectangle=0 193 285 194
+      Action=3
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Static
+      Rectangle=100 10 278 44
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Text=Welcome to %APPTITLE% Setup program. This program will install %APPTITLE% on your computer.
+      Text French=Bienvenue sur le programme d'installation %APPTITLE%. Ce programme va installer %APPTITLE% sur votre ordinateur.
+      Text German=Willkommen im Installationsprogramm für %APPTITLE%. Dieses Programm installiert  %APPTITLE% auf Ihrem Computer.
+      Text Portuguese=Bem-vindo ao programa de configuração %APPTITLE%. Este programa instalará %APPTITLE% no seu computador
+      Text Spanish=Bienvenido al programa de Configuración %APPTITLE%. Este programa instalará %APPTITLE en su ordenador
+      Text Italian=Benvenuto nel programma di installazione di %APPTITLE%. Con questo programma puoi installare %APPTITLE% sul tuo computer.
+      Text Danish=Velkommen til %APPTITLE% installationsprogrammet. Dette program installerer %APPTITLE% på computeren.
+      Text Dutch=Welkom bij het %APPTITLE% installatieprogramma. Dit programma installeert %APPTITLE% op uw computer.
+      Text Norwegian=Velkommen til %APPTITLE% Oppsett-program. Dette programmet vil installere %APPTITLE% på datamaskinen din.
+      Text Swedish=Välkommen till installationsprogrammet för %APPTITLE%. Detta program installerar %APPTITLE% på din dator.
+    end
+    item: Static
+      Rectangle=100 50 278 190
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Text=It is strongly recommended that you exit all Windows programs before running this Setup Program.
+      Text=
+      Text=Click Cancel to quit Setup and close any programs you have running.  Click Next to continue with the Setup program.
+      Text=
+      Text=WARNING: This program is protected by copyright law and international treaties.
+      Text=
+      Text=Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law.
+      Text French=Il vous est fortement recommandé de fermer tous les programmes Windows avant d'exécuter le Programme d'Installation.
+      Text French=
+      Text French=Cliquez sur Annuler pour quitter l'Installation et fermez tous les programmes actuellement utilisés. Cliquez sur Suivant pour continuer l'installation.
+      Text French=
+      Text French=ATTENTION : Ce programme est protégé par la loi sur les droits d'exploitation et par les traités internationaux.
+      Text French=
+      Text French=Toute reproduction ou distribution, même partielle, de ce programme qui n'aura pas reçu d'autorisation préalable fera l'objet de poursuites et sera sévèrement sanctionnée par le droit civil et pénal.
+      Text German=Wir empfehlen nachdrücklich, vor Ausführen dieses Installationsprogramms alle Windows-Programme zu beenden. 
+      Text German=
+      Text German=Auf Abbrechen klicken, um die Installation zu beenden und alle laufenden Programme zu schließen. Auf Weiter klicken, um mit dem Installationsprogramm zu beginnen.
+      Text German=
+      Text German=WARNUNG: Dieses Programm ist urheberrechtlich sowie durch internationale Verträge geschützt. 
+      Text German=
+      Text German=Die unzulässige Vervielfältigung oder Verbreitung dieses Programms, ob ganz oder auszugsweise, kann schwere zivil- und strafrechtliche Konsequenzen nach sich ziehen und wird unter voller Ausschöpfung der Rechtsmittel geahndet.
+      Text Portuguese=Recomenda-se insistentemente que saia de todos os programas do Windows antes de executar este Programa de Configuração.
+      Text Portuguese=
+      Text Portuguese=Faça um clique sobre Cancelar para sair da Configuração e feche todos os programas que estiver a executar. Faça um clique sobre Próximo para continuar com o programa de configuração
+      Text Portuguese=
+      Text Portuguese=AVISO: Este programa está protegido pela lei de direitos do autor e tratados internacionais
+      Text Portuguese=
+      Text Portuguese=A reprodução e a distribuição sem autorização deste programa, ou qualquer parte dele, pode dar lugar à aplicação de severas sanções civis e criminais, e serão perseguidas à extensão máxima permitida pela lei.
+      Text Spanish=Se recomienda encarecidamente que salga de todos los programas Windows antes de ejecutar este programa de Configuración.
+      Text Spanish=
+      Text Spanish=Haga un clic en Cancelar para abandonar la Configuración y cerrar cualquier programa que haya estado ejecutando. Haga un clic en Siguiente para continuar con el programa de Configuración.
+      Text Spanish=
+      Text Spanish=AVISO: Este programa está protegido por las leyes de derechos de autor y tratados internacionales.
+      Text Spanish=
+      Text Spanish=La reproducción o distribución no autorizadas de este programa, o cualquier parte de él, podría dar como resultado rigurosas multas civiles y penales, y se entablará la máxima acción judicial que permita la ley.
+      Text Italian=Ti consigliamo di uscire da tutti i programmi Windows prima di eseguire questo programma di installazione.
+      Text Italian=
+      Text Italian=Fai clic su Annulla per uscire dal programma di installazione e chiudi tutti i programmi aperti. Fai clic su Avanti per continuare con il programma di Installazione.
+      Text Italian=
+      Text Italian=AVVERTENZA: Questo programma è protetto ai sensi delle norme di legge e delle convenzioni internazionali in materia di diritti di copyright.
+      Text Italian=
+      Text Italian=La riproduzione o la distribuzione totale o parziale non autorizzata di questo programma potrà essere soggetta a penalità civili e penali, e sarà punita con la massima severità possibile a norma di legge.
+      Text Danish=Det anbefales kraftigt at afslutte alle Windows programmer, inden man kører dette installationsprogram.
+      Text Danish=
+      Text Danish=Klik på Annuller for at forlade installationsprogrammet og lukke alle igangværende programmer. Klik på Næste for at fortsætte med installationsprogrammet.
+      Text Danish=
+      Text Danish=ADVARSEL: Dette program er beskyttet af copyright og internationale traktater. 
+      Text Danish=
+      Text Danish=Uautoriseret gengivelse eller videresalg af dette program eller dele heraf kan føre til streng civil- og/eller kriminel stra. Retsforfølgning heraf vil finde sted i det videste omfang der hjemles muligt.
+      Text Dutch=Het wordt aangeraden om alle Windows programma's af te sluiten voordat u met de installatie van dit programma begint.
+      Text Dutch=
+      Text Dutch=Klik op Annuleren om de installatie te verlaten en eventueel nog lopende programma's af te sluiten. Klik op Volgende om verder te gaan met het Installatieprogramma.
+      Text Dutch=
+      Text Dutch=WAARSCHUWING: dit computerprogramma is auteursrechtelijk beschermd.
+      Text Dutch=
+      Text Dutch=Onrechtmatige verveelvoudiging of distributie van dit programma of een gedeelte ervan is verboden en strafbaar en zal met alle beschikbare juridische middelen worden bestreden.
+      Text Norwegian=Det anbefales på det sterkeste at du avslutter alle Windows-programmer før du kjører dette Oppsett-programmet.
+      Text Norwegian=
+      Text Norwegian=Velg Avbryt for å avbryte Oppsett og lukk alle programmer som er i bruk. Velg Neste for å fortsette med Oppsett-programmet.
+      Text Norwegian=
+      Text Norwegian=ADVARSEL: Dette programmet er beskyttet i henhold til lover om opphavsrett og internasjonale konvensjoner.
+      Text Norwegian=
+      Text Norwegian=Uautorisert kopiering eller distribuering av dette programmet eller deler av det, vil resultere i alvorlig sivil og kriminell straff og vil føre til saksmål i høyest mulig utstrekning i henhold til loven. 
+      Text Swedish=Du tillråds bestämt att gå ur alla Windows-program innan du kör installationsprogrammet.
+      Text Swedish=
+      Text Swedish=Klicka på Avbryt för att gå ur installationsprogrammet och stäng eventuella program som du har laddade. Klicka på Nästa för att fortsätta med installationen.
+      Text Swedish=
+      Text Swedish=VARNING: Detta program är skyddat av upphovsrätten och internationella avtal.
+      Text Swedish=
+      Text Swedish=Om du utan tillstånd kopierar eller distribuerar detta program eller delar av det kan det bli allvarliga civilrättsliga och brottsrättliga straffpåföljder. Vi beivrar sådana överträdelser i den allra högsta utsträckning som lagen tillåter.
+    end
+    item: Static
+      Rectangle=0 0 285 193
+      Action=2
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000001011
+      Pathname=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname French=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname German=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Portuguese=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Spanish=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Italian=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Danish=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Dutch=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Norwegian=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Swedish=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+    end
+  end
+end

@@ -1,0 +1,85 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Installation Options
+  Flags=11001101
+  item: Dialog
+    Width=148
+    Height=118
+    Font Name=Helv
+    Font Size=8
+    Flags=0000000100000000
+    item: Static
+      Rectangle=3 0 140 57
+      Action=1
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Static
+      Rectangle=6 8 137 54
+      Create Flags=01010000000000000000000010000000
+      Text=%1%
+      Text French=%1%
+      Text German=%1%
+      Text Portuguese=%1%
+      Text Spanish=%1%
+      Text Italian=%1%
+      Text Danish=%1%
+      Text Dutch=%1%
+      Text Norwegian=%1%
+      Text Swedish=%1%
+    end
+    item: Radio Button
+      Rectangle=5 62 142 74
+      Variable=%3%
+      Create Flags=01010000000000010000000000001001
+      Text=%2%
+      Text=
+      Text French=%2%
+      Text French=
+      Text German=%2%
+      Text German=
+      Text Portuguese=%2%
+      Text Portuguese=
+      Text Spanish=%2%
+      Text Spanish=
+      Text Italian=%2%
+      Text Italian=
+      Text Danish=%2%
+      Text Danish=
+      Text Dutch=%2%
+      Text Dutch=
+      Text Norwegian=%2%
+      Text Norwegian=
+      Text Swedish=%2%
+      Text Swedish=
+    end
+    item: Push Button
+      Rectangle=10 80 60 94
+      Create Flags=01010000000000010000000000000001
+      Text=%27%
+      Text French=%27%
+      Text German=%27%
+      Text Portuguese=%27%
+      Text Spanish=%27%
+      Text Italian=%27%
+      Text Danish=%27%
+      Text Dutch=%27%
+      Text Norwegian=%27%
+      Text Swedish=%27%
+    end
+    item: Push Button
+      Rectangle=84 80 134 94
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=%28%
+      Text French=%28%
+      Text German=%28%
+      Text Portuguese=%28%
+      Text Spanish=%28%
+      Text Italian=%28%
+      Text Danish=%28%
+      Text Dutch=%28%
+      Text Norwegian=%28%
+      Text Swedish=%28%
+    end
+  end
+end

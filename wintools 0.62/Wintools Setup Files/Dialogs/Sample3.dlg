@@ -1,0 +1,100 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Installation Options
+  Flags=11001101
+  item: Dialog
+    Title=Welcome!
+    Width=150
+    Height=150
+    Font Name=Helv
+    Font Size=8
+    item: Static
+      Rectangle=5 5 141 105
+      Action=1
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Static
+      Rectangle=11 30 134 81
+      Create Flags=01010000000000000000000000000000
+      Text=The next few screens will prompt for the installation information.
+      Text=
+      Text=Press the Next button to move to the next dialog. Press the Cancel button to abort the installation.
+    end
+    item: Push Button
+      Rectangle=68 114 103 129
+      Destination Dialog=1
+      Action=2
+      Create Flags=01010000000000010000000000000001
+      Text=Next >>
+    end
+    item: Push Button
+      Rectangle=107 114 142 129
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+    end
+  end
+  item: Dialog
+    Title=Destination Directory
+    Width=150
+    Height=150
+    Font Name=Helv
+    Font Size=8
+    item: Listbox
+      Rectangle=5 5 137 106
+      Variable=MAINDIR
+      Create Flags=01010000100000010000000101000000
+      Flags=0000010000000010
+      Text=%MAINDIR%
+    end
+    item: Push Button
+      Rectangle=68 114 103 129
+      Destination Dialog=2
+      Action=2
+      Create Flags=01010000000000010000000000000001
+      Text=Next >>
+    end
+    item: Push Button
+      Rectangle=29 114 64 129
+      Create Flags=01010000000000010000000000000000
+      Text=<< Back
+    end
+    item: Push Button
+      Rectangle=107 114 142 129
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+    end
+  end
+  item: Dialog
+    Title=Program Manager Group
+    Width=150
+    Height=150
+    Font Name=Helv
+    Font Size=8
+    item: Combobox
+      Rectangle=5 5 141 105
+      Variable=GROUP
+      Create Flags=01010000000000010000001000000001
+      Flags=0000000000000001
+      Text=%GROUP%
+    end
+    item: Push Button
+      Rectangle=67 114 102 129
+      Action=1
+      Create Flags=01010000000000010000000000000001
+      Text=Finish
+    end
+    item: Push Button
+      Rectangle=28 114 63 129
+      Create Flags=01010000000000010000000000000000
+      Text=<< Back
+    end
+    item: Push Button
+      Rectangle=107 114 142 129
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+    end
+  end
+end

@@ -1,0 +1,132 @@
+Document Type: WSE
+item: Global
+  Version=8.11
+  Flags=00000100
+  Split=1420
+  Languages=65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  Japanese Font Name=MS Gothic
+  Japanese Font Size=10
+  Start Gradient=0 0 255
+  End Gradient=0 0 0
+  Windows Flags=00000000000000010010110000001000
+  Message Font=MS Sans Serif
+  Font Size=8
+  Disk Label=GLBS INC
+  Disk Filename=SETUP
+  Patch Flags=0000000000000001
+  Patch Threshold=85
+  Patch Memory=4000
+  FTP Cluster Size=20
+  Crystal Format=10111100101100000010001001001001
+  File Checksum=2885906500
+end
+item: Remark
+end
+item: Remark
+  Text=Perform a rollback if the user is doing backups and the installation is canceled
+end
+item: Remark
+end
+item: Set Variable
+  Variable=TEST_BLANK
+  Value=%_LOGFILE_PATH_%
+end
+item: If/While Statement
+  Variable=TEST_BLANK
+  Flags=00000001
+end
+item: If/While Statement
+  Variable=UNINSTALL_PATH
+  Flags=00000001
+end
+item: If/While Statement
+  Variable=BACKUPDIR
+  Flags=00000001
+end
+item: Check if File/Dir Exists
+  Pathname=%UNINSTALL_PATH%
+  Flags=00000100
+end
+item: Remark
+end
+item: Remark
+  Text=Check to see if the user wants to rollback the part of the installation that was performed
+end
+item: Remark
+end
+item: Display Message
+  Title=Perform Rollback?
+  Title French=Exécuter la reprise ?
+  Title German=Rollback durchführen?
+  Title Portuguese=Realizar Retomada?
+  Title Spanish=¿Volver al estado anterior?
+  Title Italian=Esegui il Ritorno allo stato precedente?
+  Title Danish=Udføre Rollback?
+  Title Dutch=Terugrollen?
+  Title Norwegian=Utføre tilbakestilling?
+  Title Swedish=Utföra rollback?
+  Text=This installation did not complete. Would you like to rollback the changes that were made during the partial installation?
+  Text French=L'installation est inachevée. Désirez-vous reprendre les changements que vous avez effectués lors de l'installation partielle ?
+  Text German=Diese Installation wurde nicht abgeschlossen. Möchten Sie für die Änderungen, die während der teilweisen Installation vorgenommen wurden, einen Rollback durchführen?
+  Text Portuguese=Esta instalação não foi concluída. Deseja retomar as alterações que foram feitas durante a instalação parcial?
+  Text Spanish=Esta instalación no se ha completado. ¿Le gustaría retroceder a los cambios realizados durante la instalación parcial?
+  Text Italian=Questa installazione non è stata completata. Vuoi ripristinare allo stato precedente i cambiamenti apportati durante l’installazione parziale?
+  Text Danish=Denne installation blev ikke færdig. Ønsker De rollback af de ændringer, der blev foretaget under delinstallationen?
+  Text Dutch=Deze installatie is niet afgemaakt. Wilt u de wijzigingen die tijdens de gedeeltelijke installatie werden aangebracht, ongedaan maken?
+  Text Norwegian=Denne installasjonen ble ikke fullført. Ønsker du å tilbakestille endringene som ble utført under den delvise installasjonen?
+  Text Swedish=Denna installation fullbordades inte. Vill du utföra en rollback för att återställa ändringarna som gjordes under den partiella installationen?
+  Flags=00101101
+end
+item: Remark
+end
+item: Remark
+  Text=Close the old installation log to make sure it is written to the destination directory
+end
+item: Remark
+end
+item: Open/Close INSTALL.LOG
+  Flags=00000010
+end
+item: Remark
+end
+item: Remark
+  Text=Run the uninstaller with the /R option to rollback the partial installation
+end
+item: Remark
+end
+item: If/While Statement
+  Variable=CMDLINE
+  Value=/S
+  Flags=00000010
+end
+item: Set Variable
+  Variable=SILENT_OPTION
+  Value=/S
+end
+item: End Block
+end
+item: If/While Statement
+  Variable=CMDLINE
+  Value=/s
+  Flags=00000010
+end
+item: Set Variable
+  Variable=SILENT_OPTION
+  Value=/S
+end
+item: End Block
+end
+item: Execute Program
+  Pathname=%UNINSTALL_PATH%
+  Command Line=%SILENT_OPTION% /A /R %INST_LOG_PATH%
+end
+item: End Block
+end
+item: End Block
+end
+item: End Block
+end
+item: End Block
+end
+item: End Block
+end

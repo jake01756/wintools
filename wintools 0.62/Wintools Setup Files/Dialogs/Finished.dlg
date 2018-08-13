@@ -1,0 +1,156 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Finished
+  Display Variable=DISPLAY
+  item: Dialog
+    Title=%APPTITLE%
+    Title French=%APPTITLE%
+    Title German=%APPTITLE%
+    Title Portuguese=%APPTITLE%
+    Title Spanish=%APPTITLE%
+    Title Italian=%APPTITLE%
+    Title Danish=%APPTITLE%
+    Title Dutch=%APPTITLE%
+    Title Norwegian=%APPTITLE%
+    Title Swedish=%APPTITLE%
+    Width=290
+    Height=238
+    Font Name=Helv
+    Font Size=8
+    Flags=0000000100000000
+    item: Push Button
+      Rectangle=186 200 228 214
+      Variable=DIRECTION
+      Value=N
+      Create Flags=01010000000000010000000000000001
+      Text=&Finish >
+      Text French=&Terminer>
+      Text German=&Fertigstellen>
+      Text Portuguese=&Terminar >
+      Text Spanish=&Finalizar>
+      Text Italian=&Fine >
+      Text Danish=&Afslut >
+      Text Dutch=&Klaar>
+      Text Norwegian=&Avslutt>
+      Text Swedish=&Sluta>
+    end
+    item: Push Button
+      Control Name=CANCEL
+      Rectangle=237 200 279 214
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+      Text French=Annuler
+      Text German=Abbrechen
+      Text Portuguese=Cancelar
+      Text Spanish=Cancelar
+      Text Italian=Annulla
+      Text Danish=Annuller
+      Text Dutch=Annuleren
+      Text Norwegian=Avbryt
+      Text Swedish=Avbryt
+    end
+    item: Static
+      Rectangle=0 193 285 194
+      Action=3
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Static
+      Rectangle=100 10 275 74
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Text=%APPTITLE% has been successfully installed.
+      Text=
+      Text=
+      Text=Click the Finish button to exit this installation.
+      Text=
+      Text French=L'installation de %APPTITLE% est réussie.
+      Text French=
+      Text French=
+      Text French=Cliquez sur Terminer pour quitter cette installation.
+      Text French=
+      Text German=%APPTITLE% wurde erfolgreich installiert.
+      Text German=
+      Text German=
+      Text German=Zum Beenden dieser Installation Fertigstellen anklicken.
+      Text German=
+      Text Portuguese=%APPTITLE% foi instalado com êxito
+      Text Portuguese=
+      Text Portuguese=
+      Text Portuguese=Pressionar o botão Terminar para sair desta instalação
+      Text Portuguese=
+      Text Spanish=%APPTITLE% se ha instalado con éxito.
+      Text Spanish=
+      Text Spanish=
+      Text Spanish=Pulse el botón de Finalizar para salir de esta instalación.
+      Text Spanish=
+      Text Italian=%APPTITLE% è stato installato.
+      Text Italian=
+      Text Italian=
+      Text Italian=Premi il pulsante Fine per uscire dal programma di installazione
+      Text Italian=
+      Text Danish=%APPTITLE% er nu installeret korrekt.
+      Text Danish=
+      Text Danish=
+      Text Danish=Klik på Afslut for at afslutte installationen.
+      Text Danish=
+      Text Dutch=%APPTITLE% is met succes geïnstalleerd.
+      Text Dutch=
+      Text Dutch=
+      Text Dutch=Druk op Klaar om deze installatie af te ronden.
+      Text Dutch=
+      Text Norwegian=Installasjonen av %APPTITLE% er vellykket.
+      Text Norwegian=
+      Text Norwegian=
+      Text Norwegian=Trykk på Avslutt-tasten for å avslutte denne installasjonen.
+      Text Norwegian=
+      Text Swedish=Installationen av %APPTITLE% har lyckats.
+      Text Swedish=
+      Text Swedish=
+      Text Swedish=Tryck på Sluta för att gå ur installationsprogrammet.
+      Text Swedish=
+    end
+    item: Push Button
+      Control Name=BACK
+      Rectangle=144 200 186 214
+      Variable=DIRECTION
+      Value=B
+      Create Flags=01010000000000010000000000000000
+      Text=< &Back
+      Text French=<&Retour
+      Text German=<&Zurück
+      Text Portuguese=<&Retornar
+      Text Spanish=<&Retroceder
+      Text Italian=< &Indietro
+      Text Danish=<&Tilbage
+      Text Dutch=<&Terug
+      Text Norwegian=<&Tilbake
+      Text Swedish=< &Tillbaka
+    end
+    item: Static
+      Rectangle=0 0 285 193
+      Action=2
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000001011
+      Pathname=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname French=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname German=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Portuguese=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Spanish=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Italian=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Danish=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Dutch=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Norwegian=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+      Pathname Swedish=%_WISE_%\DIALOGS\TEMPLATE\SideImage.bmp
+    end
+    item: Set Control Attribute
+      Control Name=BACK
+      Operation=1
+    end
+    item: Set Control Attribute
+      Control Name=CANCEL
+      Operation=1
+    end
+  end
+end

@@ -1,0 +1,90 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Installation Options
+  Flags=11001101
+  item: Dialog
+    Width=160
+    Height=197
+    Font Name=Helv
+    Font Size=8
+    Flags=0000000100000000
+    item: Static
+      Rectangle=3 1 152 62
+      Action=1
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Static
+      Rectangle=6 9 149 58
+      Create Flags=01010000000000000000000010000000
+      Text=%1%
+      Text French=%1%
+      Text German=%1%
+      Text Portuguese=%1%
+      Text Spanish=%1%
+      Text Italian=%1%
+      Text Danish=%1%
+      Text Dutch=%1%
+      Text Norwegian=%1%
+      Text Swedish=%1%
+    end
+    item: Static
+      Rectangle=3 64 152 73
+      Create Flags=01010000000000000000000010000000
+      Text=%2%
+      Text French=%2%
+      Text German=%2%
+      Text Portuguese=%2%
+      Text Spanish=%2%
+      Text Italian=%2%
+      Text Danish=%2%
+      Text Dutch=%2%
+      Text Norwegian=%2%
+      Text Swedish=%2%
+    end
+    item: Combobox
+      Rectangle=5 74 151 154
+      Variable=%4%
+      Create Flags=01010000001000010000001101000001
+      Flags=0000000000000001
+      Text=%3%
+      Text French=%3%
+      Text German=%3%
+      Text Portuguese=%3%
+      Text Spanish=%3%
+      Text Italian=%3%
+      Text Danish=%3%
+      Text Dutch=%3%
+      Text Norwegian=%3%
+      Text Swedish=%3%
+    end
+    item: Push Button
+      Rectangle=7 160 57 174
+      Create Flags=01010000000000010000000000000001
+      Text=%27%
+      Text French=%27%
+      Text German=%27%
+      Text Portuguese=%27%
+      Text Spanish=%27%
+      Text Italian=%27%
+      Text Danish=%27%
+      Text Dutch=%27%
+      Text Norwegian=%27%
+      Text Swedish=%27%
+    end
+    item: Push Button
+      Rectangle=99 160 149 174
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=%28%
+      Text French=%28%
+      Text German=%28%
+      Text Portuguese=%28%
+      Text Spanish=%28%
+      Text Italian=%28%
+      Text Danish=%28%
+      Text Dutch=%28%
+      Text Norwegian=%28%
+      Text Swedish=%28%
+    end
+  end
+end

@@ -1,0 +1,106 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Display ReadMe
+  Display Variable=DISPLAY
+  item: Dialog
+    Title=%APPTITLE%
+    Title French=%APPTITLE%
+    Title German=%APPTITLE%
+    Title Portuguese=%APPTITLE%
+    Title Spanish=%APPTITLE%
+    Title Italian=%APPTITLE%
+    Title Danish=%APPTITLE%
+    Title Dutch=%APPTITLE%
+    Title Norwegian=%APPTITLE%
+    Title Swedish=%APPTITLE%
+    Width=290
+    Height=238
+    Font Name=Helv
+    Font Size=8
+    item: Push Button
+      Rectangle=186 200 228 214
+      Variable=DIRECTION
+      Value=N
+      Create Flags=01010000000000010000000000000001
+      Text=&Next >
+      Text French=&Suivant>
+      Text German=&Weiter>
+      Text Portuguese=&Próximo>
+      Text Spanish=&Siguiente >
+      Text Italian=&Avanti >
+      Text Danish=&Næste>
+      Text Dutch=&Volgende>
+      Text Norwegian=&Neste>
+      Text Swedish=&Nästa >
+    end
+    item: Push Button
+      Rectangle=237 200 279 214
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+      Text French=Annuler
+      Text German=Abbrechen
+      Text Portuguese=Cancelar
+      Text Spanish=Cancelar
+      Text Italian=Annulla
+      Text Danish=Slet
+      Text Dutch=Annuleren
+      Text Norwegian=Avbryt
+      Text Swedish=Avbryt
+    end
+    item: Static
+      Rectangle=71 191 286 192
+      Action=3
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Editbox
+      Rectangle=10 50 275 175
+      Value=%TEMP%\%READMEFILE%
+      Help Context=16711681
+      Create Flags=01010000101000000000100000000100
+    end
+    item: Push Button
+      Rectangle=144 200 186 214
+      Variable=DIRECTION
+      Value=B
+      Create Flags=01010000000000010000000000000000
+      Flags=0000000000000001
+      Text=< &Back
+      Text French=<&Retour
+      Text German=<&Zurück
+      Text Portuguese=<&Retornar
+      Text Spanish=<&Retroceder
+      Text Italian=< &Indietro
+      Text Danish=<&Back
+      Text Dutch=<&Terug
+      Text Norwegian=<&Tilbake
+      Text Swedish=< &Tillbaka
+    end
+    item: Static
+      Rectangle=0 187 71 195
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Text=Wise Installation Wizard®
+    end
+    item: Static
+      Rectangle=10 5 235 14
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Flags=0000000000000001
+      Name=Arial
+      Font Style=-12 0 0 0 700 0 0 0 0 3 2 1 34
+      Text=ReadMe File
+      Text French=Fichier Lisez-moi
+      Text German=Liesmich-Datei
+      Text Portuguese=Ficheiro Leia-me
+      Text Spanish=Archivo Léeme
+      Text Italian=File Leggimi  
+      Text Danish=Vigtigt fil
+      Text Dutch=Leesmij-bestand
+      Text Norwegian=Informasjonsfil
+      Text Swedish=Läs mig-fil
+    end
+  end
+end

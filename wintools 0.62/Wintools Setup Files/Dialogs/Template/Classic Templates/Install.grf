@@ -1,0 +1,23 @@
+Document Type: GRF
+item: Custom Graphic
+  Width=66
+  Height=40
+  item: Bitmap
+    Text=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text French=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text German=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text Portuguese=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text Spanish=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text Italian=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text Danish=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text Dutch=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text Norwegian=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Text Swedish=%_WISE_%\DIALOGS\TEMPLATE\install.bmp
+    Rectangle=1 0 66 40
+    Flags=00000111
+    Pen Color=255
+    Pen Width=1
+    Brush Style=1000
+    Extra Flags=00000001
+  end
+end

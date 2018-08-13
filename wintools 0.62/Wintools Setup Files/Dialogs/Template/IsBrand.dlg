@@ -1,0 +1,138 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Display Registration Information
+  Display Variable=DISPLAY
+  item: Dialog
+    Title=%APPTITLE%
+    Title French=%APPTITLE%
+    Title German=%APPTITLE%
+    Title Portuguese=%APPTITLE%
+    Title Spanish=%APPTITLE%
+    Title Italian=%APPTITLE%
+    Title Danish=%APPTITLE%
+    Title Dutch=%APPTITLE%
+    Title Norwegian=%APPTITLE%
+    Title Swedish=%APPTITLE%
+    Width=290
+    Height=238
+    Font Name=Helv
+    Font Size=8
+    item: Static
+      Rectangle=20 85 270 121
+      Create Flags=01010000000000000000000000000000
+      Text=%NAME%
+      Text=%COMPANY%
+      Text French=%NAME%
+      Text French=%COMPANY%
+      Text German=%NAME%
+      Text German=%COMPANY%
+      Text Portuguese=%NAME%
+      Text Portuguese=%COMPANY%
+      Text Spanish=%NAME%
+      Text Spanish=%COMPANY%
+      Text Italian=%NAME%
+      Text Italian=%COMPANY%
+      Text Danish=%NAME%
+      Text Danish=%COMPANY%
+      Text Dutch=%NAME%
+      Text Dutch=%COMPANY%
+      Text Norwegian=%NAME%
+      Text Norwegian=%COMPANY%
+      Text Swedish=%NAME%
+      Text Swedish=%COMPANY%
+    end
+    item: Static
+      Rectangle=20 50 270 80
+      Create Flags=01010000000000000000000000000000
+      Text=This software has already been installed by the following person. If you are not licensed to use this software you may not install this software onto your computer.
+      Text French=Ce logiciel a déjà été installé par la personne nommée ci-dessous. Si vous n'avez pas l'autorisation d'utiliser ce logiciel, veuillez ne pas l'installer sur votre ordinateur
+      Text German=Diese Software wurde bereits von der folgenden Person installiert. Ohne Lizenz zur Verwendung dieser Software dürfen Sie diese Software nicht auf Ihrem Computer installieren.
+      Text Portuguese=Este programa já foi instalado pela seguinte pessoa. Se não tiver a licença para utilizar este programa, não pode instalar este programa no seu computador.
+      Text Spanish=La persona que se cita a continuación ya ha instalado este software. Si no está autorizado para usar este software no debe instalarlo en su ordenador.
+      Text Italian=Questo software è stato già installato dal seguente utente. Se non possiedi la licenza per usare questo software non puoi installarlo sul tuo computer.
+      Text Danish=Denne software er allerede installeret af denne person. Hvis du ikke har licens til at benytte denne software, må du ikke installere dette software software på computeren.
+      Text Dutch=Deze software is reeds door de volgende persoon ge•nstalleerd. Als u niet bevoegd bent om deze software te gebruiken, mag u deze software niet op uw computer installeren.
+      Text Norwegian=Denne programvaren har allerede blitt installert av følgende person. Hvis du ikke har lisens til å bruke denne programvaren kan du ikke installere den på datamaskinen din.
+      Text Swedish=Denna programvara har redan installerats av personen nedan. Om du inte har licens att använda denna programvara får du inte installera programvaran på din dator.
+    end
+    item: Push Button
+      Rectangle=186 200 228 214
+      Variable=DIRECTION
+      Value=N
+      Create Flags=01010000000000010000000000000001
+      Text=&Next >
+      Text French=&Suivant>
+      Text German=&Weiter>
+      Text Portuguese=&Próximo>
+      Text Spanish=&Siguiente >
+      Text Italian=&Avanti >
+      Text Danish=&Næste>
+      Text Dutch=&Volgende>
+      Text Norwegian=&Neste>
+      Text Swedish=&Nästa >
+    end
+    item: Push Button
+      Rectangle=144 200 186 214
+      Variable=DIRECTION
+      Value=B
+      Create Flags=01010000000000010000000000000000
+      Flags=0000000000000001
+      Text=< &Back
+      Text French=<&Retour
+      Text German=<&Zurück
+      Text Portuguese=<&Retornar
+      Text Spanish=<&Retroceder
+      Text Italian=< &Indietro
+      Text Danish=<&Tilbage
+      Text Dutch=<&Terug
+      Text Norwegian=<&Tilbake
+      Text Swedish=< &Tillbaka
+    end
+    item: Push Button
+      Rectangle=237 200 279 214
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+      Text French=Annuler
+      Text German=Abbrechen
+      Text Portuguese=Cancelar
+      Text Spanish=Cancelar
+      Text Italian=Annulla
+      Text Danish=Annuller
+      Text Dutch=Annuleren
+      Text Norwegian=Avbryt
+      Text Swedish=Avbryt
+    end
+    item: Static
+      Rectangle=71 191 286 192
+      Action=3
+      Create Flags=01010000000000000000000000000111
+    end
+    item: Static
+      Rectangle=0 187 71 195
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Text=Wise Installation Wizard®
+    end
+    item: Static
+      Rectangle=10 5 235 14
+      Destination Dialog=4
+      Enabled Color=00000000000000001111111111111111
+      Create Flags=01010000000000000000000000000000
+      Flags=0000000000000001
+      Name=Arial
+      Font Style=-12 0 0 0 700 0 0 0 0 3 2 1 34
+      Text=Registration Information
+      Text French=Afficher les informations l'enregistrement
+      Text German=Registrierinformationen einblenden.
+      Text Portuguese=Mostrar Informação de Registo
+      Text Spanish=Mostrar Información de Inscripción
+      Text Italian=Visualizza dati registrazione
+      Text Danish=Vis registreringsoplysninger
+      Text Dutch=Vertoon registratie-informatie.
+      Text Norwegian=Vis registreringsinformasjon.
+      Text Swedish=Visa registreringsinformation
+    end
+  end
+end

@@ -1,0 +1,140 @@
+Document Type: DLG
+item: Custom Dialog
+  Name=Installation Options
+  Flags=11001101
+  item: Dialog
+    Title=Select Installation Options
+    Width=156
+    Height=212
+    Font Name=Helv
+    Font Size=8
+    item: Static
+      Rectangle=5 5 146 46
+      Action=3
+      Create Flags=01010000000000000000000000001001
+    end
+    item: Static
+      Rectangle=7 9 139 44
+      Create Flags=01010000000000000000000000000000
+      Text=Please confirm the destination directory and group name. Press the Change button to modify the value. Press Ok to start the installation.
+    end
+    item: Static
+      Rectangle=2 58 82 67
+      Create Flags=01010000000000000000000000000000
+      Text=Destination Directory:
+    end
+    item: Static
+      Rectangle=1 69 149 92
+      Action=3
+      Create Flags=01010000000000000000000000001001
+    end
+    item: Static
+      Rectangle=5 76 99 84
+      Create Flags=01010000000000000000000000001100
+      Text=%MAINDIR%
+    end
+    item: Push Button
+      Rectangle=110 73 145 88
+      Destination Dialog=1
+      Action=2
+      Create Flags=01010000000000010000000000000000
+      Text=Change
+    end
+    item: Static
+      Rectangle=2 96 106 105
+      Create Flags=01010000000000000000000000000000
+      Text=Program Manager Group Name:
+    end
+    item: Static
+      Rectangle=4 113 98 121
+      Create Flags=01010000000000000000000000001100
+      Text=%GROUP%
+    end
+    item: Static
+      Rectangle=1 106 149 129
+      Action=3
+      Create Flags=01010000000000000000000000001001
+    end
+    item: Push Button
+      Rectangle=111 110 146 125
+      Destination Dialog=2
+      Action=2
+      Create Flags=01010000000000010000000000000000
+      Text=Change
+    end
+    item: Static
+      Rectangle=1 137 149 165
+      Action=3
+      Create Flags=01010000000000000000000000001001
+    end
+    item: Checkbox
+      Rectangle=15 140 105 162
+      Variable=CHECKBOXES
+      Create Flags=01010000000000010000000000000011
+      Text=Backup Replaced Files
+      Text=View Read Me File
+      Text=
+    end
+    item: Push Button
+      Rectangle=6 174 41 189
+      Create Flags=01010000000000010000000000000001
+      Text=OK
+    end
+    item: Push Button
+      Rectangle=102 175 137 190
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+    end
+  end
+  item: Dialog
+    Title=Select Destination Directory
+    Width=151
+    Height=149
+    Font Name=Helv
+    Font Size=8
+    item: Listbox
+      Rectangle=5 5 102 127
+      Variable=MAINDIR
+      Create Flags=01010000100000010000000101000000
+      Flags=0000010000000010
+      Text=%MAINDIR%
+    end
+    item: Push Button
+      Rectangle=108 6 143 21
+      Create Flags=01010000000000010000000000000001
+      Text=OK
+    end
+    item: Push Button
+      Rectangle=108 26 143 41
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+    end
+  end
+  item: Dialog
+    Title=Select Group Name
+    Width=153
+    Height=144
+    Font Name=Helv
+    Font Size=8
+    item: Combobox
+      Rectangle=5 5 104 122
+      Variable=GROUP
+      Create Flags=01010000000000010000001000000001
+      Flags=0000000000000001
+      Text=%GROUP%
+    end
+    item: Push Button
+      Rectangle=110 6 145 21
+      Create Flags=01010000000000010000000000000001
+      Text=OK
+    end
+    item: Push Button
+      Rectangle=110 26 145 41
+      Action=3
+      Create Flags=01010000000000010000000000000000
+      Text=Cancel
+    end
+  end
+end

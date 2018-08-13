@@ -1,0 +1,69 @@
+Document Type: WSE
+item: Global
+  Version=9.0
+  Flags=00000100
+  Split=1420
+  Languages=65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  Copy Default=1
+  Japanese Font Name=MS Gothic
+  Japanese Font Size=10
+  Start Gradient=0 0 255
+  End Gradient=0 0 0
+  Windows Flags=00000000000000000000101000001000
+  Message Font=MS Sans Serif
+  Font Size=8
+  Disk Label=GLBS
+  Disk Filename=INSTALL
+  Patch Flags=0000000000000001
+  Patch Threshold=200
+  Patch Memory=4096
+  MIF PDF Version=1.0
+  MIF SMS Version=2.0
+  Per-User Version ID=1
+  Crystal Format=10111100101100000010001001001001
+  Step View=&Properties
+end
+item: Set Variable
+  Variable=UNINSTALL_PATH
+  Value=%_LOGFILE_PATH_%
+  Flags=00000010
+end
+item: Set Variable
+  Variable=UNINSTALL_PATH
+  Value=%UNINSTALL_PATH%\Unwise.exe
+end
+item: Install File
+  Source=%_SCRIPTS_%\Unwise32.exe
+  Destination=%UNINSTALL_PATH%
+  Flags=0000000000000010
+end
+item: Remark
+end
+item: Remark
+  Text=Install the add/remove or uninstall icon
+end
+item: Set Variable
+  Variable=UNINSTALL_PATH
+  Value=%UNINSTALL_PATH%
+  Flags=00010100
+end
+item: Set Variable
+  Variable=INST_LOG_PATH
+  Value=%_LOGFILE_PATH_%
+  Flags=00010100
+end
+item: Edit Registry
+  Total Keys=1
+  Key=Software\Microsoft\Windows\CurrentVersion\Uninstall\%APPTITLE%
+  New Value=%APPTITLE%
+  Value Name=DisplayName
+  Root=2
+end
+item: Edit Registry
+  Total Keys=1
+  Key=Software\Microsoft\Windows\CurrentVersion\Uninstall\%APPTITLE%
+  New Value=%UNINSTALL_PATH% %INST_LOG_PATH%
+  New Value=
+  Value Name=UninstallString
+  Root=2
+end
